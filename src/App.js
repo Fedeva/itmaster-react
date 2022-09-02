@@ -1,21 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Banner from './Banner';
+import ItemsLists from './ItemsLists'
+import Navegador from './Navegador';
+import SegundoNavegador from './SegundoNavegador';
+import Footer from './Footer'
+import Cookie from './Cookie';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         <h1>Usted sabe que la amo!!</h1> 
-        </p>
-        
-        
-        
-          maria ,si para vos
-        
-      </header>
-    </div>
+    <>
+
+      <Navegador />
+
+      <SegundoNavegador />
+      
+      <Banner />
+      
+      <ItemsLists />
+
+      <Footer />
+
+      <Cookie />
+
+
+    </>
+
   );
 }
 
