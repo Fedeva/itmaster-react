@@ -5,6 +5,7 @@ import Navegador from './Navegador';
 import SegundoNavegador from './SegundoNavegador';
 import Footer from './Footer'
 import Cookie from './Cookie';
+import Reproductor from './Reproductor';
 
 function App() {
 
@@ -20,9 +21,9 @@ function App() {
       <ItemsLists />
 
       <Footer />
+      <Reproductor/>
 
-      <Cookie />
-
+   
 
     </>
 

@@ -176,6 +176,24 @@ a:visited{
   color: white;
 }
 
+.repo{
+  height: 200px;
+  text-align: center;
+}
+
+.repo img{
+  height: 100px;
+  padding: 5px;
+}
+
+.repo button{
+  margin: 6px;
+  padding: 6px;
+}
+
+
+
+
 @media screen and (max-width: 768px){
   .banner h1{
       font-size: 42px;
