@@ -26,7 +26,6 @@ function Reproductor() {
 
     function playTema() {
        
-            <ReactAudioPlayer/>
             return;
        
             }

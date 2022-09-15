@@ -28,6 +28,9 @@ a:visited{
   background: lightgray;
 
 }
+.search{
+  text-align: left;
+}
 
 .second-nav{
   padding: 12px;
