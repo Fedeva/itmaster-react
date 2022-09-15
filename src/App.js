@@ -23,7 +23,6 @@ function App() {
       <Footer />
       <Reproductor/>
 
-      <Cookie />
    
 
     </>

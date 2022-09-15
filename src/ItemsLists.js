@@ -4,6 +4,7 @@ import {useState} from 'react'
 function Itemslists() {
 
  var [page,setPage] = useState(0)
+ var [email, setEmail] = useState()
 
   var pages = items
 
@@ -14,8 +15,14 @@ function Itemslists() {
       setPage(page + 1)
   }
 
+
+
   return (
     <>
+  
+  <input name='email' value={email} onInput={(e)=>setEmail(e.target.value)}/>
+    
+     
       <p>Mostrar paginas {page+1} de {pages.length}</p>
 
       <div className='items'>

@@ -2,7 +2,7 @@ module.exports= [
     [ 
     {
         'item' : 'Hit the lights',
-        'music' : "C:/Users/feder/Music/Hielo Negro Hombre Sencillo.mp3"
+        'music' : 'https://firebasestorage.googleapis.com/v0/b/mint-nft-dev.appspot.com/o/audios%2FeWPJwAUQe9f15Ht2DusPks3jSG12%2FOkinawaMusic.mp3?alt=media&token=9af58048-b777-4666-be1c-834bb8049467'
      },
    ],
    [
