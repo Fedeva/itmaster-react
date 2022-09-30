@@ -2,12 +2,14 @@ import Temas from './Temas'
 import kill from './img/kill.jpg'
 import { useState } from 'react'
 import ReactAudioPlayer from 'react-audio-player';
+import NavBar from './NavBar';
+
 
 
 
 function Reproductor() {
 
-
+   
     var [tema, setTema] = useState(0)
 
     function nextTema() {
@@ -35,6 +37,9 @@ function Reproductor() {
 
     return (
         <>
+
+<NavBar/>
+
             <div className='repo'>
                 <img src={kill} alt='img' />
 

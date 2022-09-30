@@ -1,33 +1,32 @@
-import './App.css';
-import Banner from './Banner';
-import ItemsLists from './ItemsLists'
-import Navegador from './Navegador';
-import SegundoNavegador from './SegundoNavegador';
-import Footer from './Footer'
-import Cookie from './Cookie';
-import Reproductor from './Reproductor';
+import { 
+  BrowserRouter as Router , Routes,
+  Route,
+} from "react-router-dom"
+import Home from './Home'
+import Contact from './Contact'
+import NotFound from "./404";
+import Reproductor from "./Reproductor";
+
 
 function App() {
 
-  return (
-    <>
+    return (
+      <Router>
+            <Routes>
+                  <Route path="/"  exact element={<Home />} />
+             
 
-      <Navegador />
+                 <Route path="/Contacto"element={<Contact/>} />
 
-      <SegundoNavegador />
-      
-      <Banner />
-      
-      <ItemsLists />
+                 <Route path="/Reproductor" element={<Reproductor/>}/>
 
-      <Footer />
-      <Reproductor/>
+              
+                 <Route path="*" element={<NotFound/>}/>
 
-   
-
-    </>
-
-  );
+             
+              </Routes>  
+      </Router>
+    );
 }
 
 export default App;
